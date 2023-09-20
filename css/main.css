@@ -8,9 +8,9 @@ body {
     color: #e6e6e6;
 }
 
-.area-border {
+/* .area-border {
     border: 2px solid white;
-}
+} */
 
 
 .container{
@@ -91,4 +91,31 @@ body {
 
 .posts {
     grid-area: posts;
+}
+
+.post-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 25px;
+    padding: 1em;
+    background-color: #c9c9c9;
+    color: black;
+    margin-bottom: 3vh;
+}
+
+.post-card > p {
+    margin: 2vh 0;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-links > a:hover {
+    text-decoration: underline;
 }
